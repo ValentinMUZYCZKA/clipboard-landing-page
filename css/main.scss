@@ -55,9 +55,15 @@ body{
     -webkit-box-shadow: inset 1px -4px 1px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: inset 1px -4px 1px 0px rgba(0,0,0,0.1);
     box-shadow: inset 1px -4px 1px 0px rgba(0,0,0,0.1);
-
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background-color: $LightBlueHover;
+    }
     &--green{
         background-color: $StrongCyan;
+        &:hover{
+            background-color: $StrongCyanHover;
+        }
     }
 }
 .section2{
@@ -246,6 +252,9 @@ body{
         color: $DarkGrayishBlue;
         text-decoration: none;
         margin-bottom: 1.5rem;
+        &:hover{
+            color: $StrongCyanHover;
+        }
     }
     &__colomn1{
         margin-top: 0.4rem;
@@ -272,6 +281,17 @@ body{
         align-items: center;
         max-width: 120px;
         width : 100%;
+
+        .social-media{
+            &__image{
+                font-size: 1.55em;
+                color: $DarkGrayishBlue;
+                &:hover{
+                    color: $StrongCyanHover;
+                }
+            }
+        }
+        
     }
     
 }

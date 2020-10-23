@@ -65,10 +65,20 @@ body {
   padding-right: 2.32rem;
   -webkit-box-shadow: inset 1px -4px 1px 0px rgba(0, 0, 0, 0.1);
   box-shadow: inset 1px -4px 1px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #8796FF;
 }
 
 .btn--green {
   background-color: #26baa4;
+}
+
+.btn--green:hover {
+  background-color: #5DCCBC;
 }
 
 .section2 {
@@ -320,6 +330,10 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.footer__link:hover {
+  color: #5DCCBC;
+}
+
 .footer__colomn1 {
   margin-top: 0.4rem;
   margin-left: 3.7rem;
@@ -372,6 +386,15 @@ body {
           align-items: center;
   max-width: 120px;
   width: 100%;
+}
+
+.footer__social-media .social-media__image {
+  font-size: 1.55em;
+  color: #4c545d;
+}
+
+.footer__social-media .social-media__image:hover {
+  color: #5DCCBC;
 }
 
 .attribution {
