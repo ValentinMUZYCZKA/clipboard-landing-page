@@ -19,7 +19,7 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding-top: 9.9rem;
+  padding-top: 8rem;
   visibility: hidden;
 }
 .section1__title {
