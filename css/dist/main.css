@@ -10,7 +10,7 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  background: no-repeat url("../asset/images/bg-header-desktop.png");
+  background: no-repeat url("./../../asset/images/bg-header-desktop.png");
   background-size: 100%;
 }
 
@@ -367,7 +367,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   body {
-    background: no-repeat url("../asset/images/bg-header-mobile.png");
+    background: no-repeat url("./../../asset/images/bg-header-mobile.png");
   }
 
   .container {
