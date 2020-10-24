@@ -1,11 +1,13 @@
 @import 'colors';
 
+
 body{
     font-family: "Bai Jamjuree";
     font-size: 18px;
     font-weight: 400;
     color: $DarkGrayishBlue;
     text-align: center;
+    
 }
 .container{
     max-width: 1440px;
@@ -13,6 +15,7 @@ body{
     margin: auto;
     background: no-repeat  url("../asset/images/bg-header-desktop.png");
     background-size: 100%;
+    
 }
 .section1{
     display: flex;
@@ -20,6 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 9.9rem;
+    visibility:hidden;
 
     &__title{
         margin-top: 3.9rem;
@@ -78,6 +82,7 @@ body{
     display: flex;
     flex-flow: column;
     align-items: center;
+    visibility:hidden;
 
     &__title{
         margin-top: 10.9rem;
@@ -99,6 +104,7 @@ body{
     flex-flow: row;
     flex-wrap: wrap;
     margin-top: 4.95rem;
+    visibility:hidden;
 
     &__image{
         max-width: 752px;
@@ -132,6 +138,7 @@ body{
 }
 .section4{
     text-align: center;
+    visibility:hidden;
 
     &__title{
         margin-top: 10.9rem;
@@ -158,6 +165,8 @@ body{
 }
 .section5{
     text-align: center;
+    visibility:hidden;
+
     &__title{
         margin-top: 4.8rem;
         font-size: 2.2rem;
@@ -228,6 +237,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 5.5rem;
+    visibility:hidden;
 
     &__title{
         margin-top: 4.8rem;
@@ -264,7 +274,9 @@ body{
     align-items: start;
     padding-left: 17.22rem;
     padding-right: 17.3rem;
-
+    min-height: 250px;
+    visibility: hidden;
+    
     &__image{
         width: 55px;
     }
@@ -382,6 +394,7 @@ body{
     .section1{
         padding-top: 7.6rem;
         text-align: center;
+        visibility: visible;
         &__title{
             margin-top: 4.3rem;
             font-size: 2rem;
@@ -402,6 +415,7 @@ body{
     .section2{
         padding-top: 7.6rem;
         text-align: center;
+        visibility: visible;
         &__title{
             margin-top: 3.25rem;
             font-size: 1.8rem;
@@ -412,10 +426,14 @@ body{
             line-height: 1.65rem;
         }
     }
-    
+    .section3{
+        visibility: visible;
+    }
     .section4{
         padding-top: 7.6rem;
         text-align: center;
+        visibility: visible;
+
         &__title{
             margin-top: 3.25rem;
             font-size: 1.8rem;
@@ -429,6 +447,8 @@ body{
     .section5{
         padding-top: 7.6rem;
         text-align: center;
+        visibility: visible;
+
         &__title{
             margin-top: 3.25rem;
             font-size: 1.8rem;
@@ -451,6 +471,8 @@ body{
     .section6{
         padding-top: 7.6rem;
         text-align: center;
+        visibility: visible;
+
         &__title{
             margin-top: 3.25rem;
             font-size: 1.8rem;
@@ -465,6 +487,8 @@ body{
     .footer{
         flex-direction: column;
         align-items: center;
+        visibility: visible;
+
         &__links{
             flex-direction: column;
             align-items: center;
